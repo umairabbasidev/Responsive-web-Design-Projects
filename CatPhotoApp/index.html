@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CatPhotoApp</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="./assets/relaxing-cat.jpg" type="image/x-icon">
+</head>
+
+<body>
+ <main class="container">
+  <h1>CatPhotoApp</h1>
+  <section>
+   <h2>Cat Photos</h2>
+   <p>See more <a href="">cat photos</a> in our gallery.</p>
+   <img src="./assets/relaxing-cat.jpg" alt="relaxing-cat" class="web-image">
+  </section>
+  <section>
+   <h3>Cat Lists</h3>
+   <h4>Things cats love:</h4>
+   <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+   </ul>
+   <figure>
+    <img src="./assets/lasagna.jpg" alt="" class="web-image">
+    <figcaption>Cats <i>love </i> lasagna.</figcaption>
+   </figure>
+  </section>
+  <section>
+   <h3>Top 3 things cats hate:</h3>
+   <ul>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+   </ul>
+   <figure>
+    <img src="./assets/cats.jpg" alt="" class="web-image">
+    <figcaption>Cats <strong>hate</strong> other cats.
+    </figcaption>
+   </figure>
+  </section>
+  <section>
+   <h2>Cat Form</h2>
+
+   <fieldset>
+    <legend>Is your cat an indoor or outdoor cat?
+    </legend>
+    <label for="indoor">
+     <input type="radio" name="indoor-outdoor" id="indoor" checked>
+     Indoor
+    </label>
+    <label for="outdoor">
+     <input type="radio" name="indoor-outdoor" id="outdoor">
+     Oudoor
+    </label>
+   </fieldset>
+   <fieldset>
+    <legend>What's your cat's personality?
+    </legend>
+    <label for="indoor">
+     <input type="checkbox" name="personality" id="indoor" checked>
+     Loving
+    </label>
+    <label for="loving">
+     <input type="checkbox" name="personality" id="lazy">
+     Lazy
+    </label>
+    <label for="loving">
+     <input type="checkbox" name="personality" id="energetic">
+     Energetic
+    </label>
+   </fieldset>
+
+   <input type="text" placeholder="cat photo URL" class="submitBtn">
+   <button type="submit" class="submitBtn">Submit</button>
+  </section>
+
+
+ </main>
+ <footer>
+  <p>Copyright © 2024 <a href="https://umairabbasi.netlify.app/" target="_blank">Umair Abbasi.</a> All rights reserved.
+  </p>
+ </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.web-image {
+  width: 100%;
+  max-width: 300px;
+}
+
+footer{
+ text-align: center;
+}
+
+.submitBtn{
+ margin-top: 5px;
+}
